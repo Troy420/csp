@@ -529,6 +529,24 @@ ul.nav__links > :last-child {
   .under-footer p {
     padding: 3rem 0 !important;
   }
+
+  .loginPage .sign-in {
+    width: 80vw;
+    justify-content: center;
+  }
+
+  form.login-form {
+    height: 75vh;
+  }
+
+  .login-form .inputs {
+    margin: 1rem auto;
+    width: 100%;
+  }
+
+  .login-form input[type="button"] {
+    width: 10rem;
+  }
 }
 
 @media screen and (min-width: 576px) {
