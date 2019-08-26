@@ -652,7 +652,7 @@ ul.nav__links > :last-child {
 }
 
 form.login-form {
-  width: 50vw;
+  width: 100%;
   text-align: center;
 }
 
