@@ -514,8 +514,20 @@ ul.nav__links > :last-child {
   }
 
   .section-title--left {
-    margin: 0;
+    margin: 1rem auto;
     padding: 1rem;
+  }
+
+  ul.footer-nav__links {
+    flex-wrap: wrap;
+  }
+
+  a.footer-nav__single-links {
+    margin: 2rem;
+  }
+
+  .under-footer p {
+    padding: 3rem 0 !important;
   }
 }
 
