@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>CSP Final Project</title>
+
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="./css/main.css" />
+
+</head>
+
+<body>
+  <!-- Preloader-->
+  <div class="preloader">
+    <img src="img/gear__preloader.gif" alt="preloader" class="preloader__item" />
+  </div>
+  <!-- End of Preloader-->
+  <!-- Header -->
+  <header class="header" id="header">
+    <!-- Banner -->
+    <div class="banner">
+      <h1 class="banner__title lobster-fonts">Love Coffee</h1>
+      <div class="banner__icons">
+        <a href="#" class="banner__social-icon">
+          <i class="fab fa-facebook fa-fw"></i>
+        </a>
+        <a href="#" class="banner__social-icon">
+          <i class="fab fa-linkedin fa-fw"></i>
+        </a>
+        <a href="#" class="banner__social-icon">
+          <i class="fab fa-github fa-fw"></i>
+        </a>
+        <a href="#" class="banner__social-icon">
+          <i class="fab fa-instagram fa-fw"></i>
+        </a>
+      </div>
+    </div>
+    <!-- End of Banner -->
+
+    <!-- Video -->
+    <article class="video__container">
+      <video class="video__item" autoplay muted loop>
+        <source src="video/Coffee_Beans_Slow_Pour.mp4" type="video/mp4" />
+        Your browser doest not support video tag
+      </video>
+    </article>
+    <!-- End of Video -->
+
+    <!-- Navigation Bar -->
+    <div class="navBtn">
+      <i class="fas fa-bars"></i>
+    </div>
+    <!-- End of Navigation Bar -->
+
+    <aside class="nav">
+      <ul class="nav__links">
+        <!-- Logo -->
+        <a href="#" class="nav__logo">
+          <img src="img/coffeeLogo.png" alt="" />
+        </a>
+        <!-- End of Logo -->
+
+        <li><a href="#header" class="nav__single-links">Home</a></li>
+        <li><a href="#about" class="nav__single-links">About</a></li>
+        <li><a href="#drink" class="nav__single-links">Sign Up</a></li>
+        <li><a href="#work" class="nav__single-links">Work</a></li>
+        <li><a href="#contact" class="nav__single-links">Contact</a></li>
+        <li><a href="./login.html" class="nav__single-links log-in__links">Log In</a></li>
+      </ul>
+    </aside>
+    <!-- Video Switch -->
+    <div class="video__switch-container">
+      <div class="video__switch">
+        <span>on</span>
+        <span>off</span>
+        <div class="video__switch-btn"></div>
+      </div>
+    </div>
+    <!-- End of Video Switch -->
+  </header>
+  <!-- End of Header -->
+
+  <!-- About Section -->
+  <section class="about section-padding" id="about">
+    <div class="grid-container grid-container--medium-2">
+      <!-- First about container -->
+      <article class="about-container">
+        <!-- first child -->
+        <div class="section-title">
+          <h1 class="section-title__name lobster-fonts">
+            our story
+          </h1>
+          <div class="section-title__underline"></div>
+          <p class="section-title__text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, quo? Corrupti dicta pariatur
+            reprehenderit neque asperiores inventore aliquam, fugiat quibusdam?
+          </p>
+        </div>
+        <!-- second child -->
+        <div class="about__img">
+          <img src="img/about-img-1.jpg" class="about__img-item" alt="About Image">
+        </div>
+      </article>
+      <!-- End of First about container -->
+
+      <!-- Second about container -->
+      <article class="about-container">
+        <!-- first child -->
+        <div class="section-title">
+          <h1 class="section-title__name lobster-fonts">
+            what we do
+          </h1>
+          <div class="section-title__underline"></div>
+          <p class="section-title__text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, quo? Corrupti dicta pariatur
+            reprehenderit neque asperiores inventore aliquam, fugiat quibusdam?
+          </p>
+        </div>
+        <!-- second child -->
+        <div class="about__img about__img-special">
+          <img src="img/about-img-2.jpg" class="about__img-item" alt="About Image">
+        </div>
+      </article>
+      <!-- End of Second about container -->
+    </div>
+  </section>
+  <!-- End of About Section -->
+
+  <!-- Drink Section -->
+  <section class="drink section-padding" id="drink">
+    <div class="grid-container">
+      <!-- First Item -->
+      <form class="drink-form">
+        <p class="drink-form__feedback">some text</p>
+        <h3 class="drink-form__title lobster-fonts">
+          to get free drinks
+        </h3>
+        <div class="drink-form__input">
+          <input type="text" maxlength="15" class="input-name" placeholder="First Name" required>
+        </div>
+        <div class="drink-form__input">
+          <input type="text" maxlength="15" class="input-lastname" placeholder="Last Name" required>
+        </div>
+        <div class="drink-form__input">
+          <input type="email" maxlength="30" class="input-email" placeholder="E-mail" required>
+        </div>
+        <div class="drink-form__input">
+          <input type="tel" name="phone" class="input-phone" placeholder="Phone" >
+        </div>
+        <div class="drink-form__input">
+            <input type="password" name="password" class="input-pass" placeholder="Password" required>
+          </div>
+        <input type="submit" value="Sign Me Up" class="input-submit">
+      </form>
+      <!-- Second Item -->
+      <article class=" drink-card">
+        <h3 class="drink-card__title lobster-fonts">lucky people :</h3>
+        <div class="drink-card__list">
+          <!-- <div class="person">
+            <img src="img/person-img-1.jpg" alt="" class="person__thumbnail">
+            <h4 class="person__name">Bernardy</h4>
+            <h4 class="person__lastname">Ho</h4>
+          </div> -->
+          <!-- <div class="person">
+            <img src="img/person-img-1.jpg" alt="" class="person__thumbnail">
+            <h4 class="person__name">Bernardy</h4>
+            <h4 class="person__lastname">Ho</h4>
+          </div> -->
+        </div>
+      </article>
+    </div>
+  </section>
+  <!-- End of Drink Section -->
+
+  <!-- Work -->
+  <section class="work section-padding" id="work">
+    <!-- Section Title -->
+    <div class="section-title section-title--left">
+      <h1 class="section-title__name lobster-fonts">
+        our work
+      </h1>
+      <div class="section-title__underline"></div>
+    </div>
+    <!-- End of Section Title -->
+    <div class="work-container">
+      <!-- Single Work Item-->
+      <article class="work-item item-0">
+        <img src="./img/work-item-0.jpg" alt="" class="work-item__img">
+        <a href="#" class="work-item__icon" data-id="0" id="work">
+          <i class="fas fa-search"></i>
+        </a>
+      </article>
+      <!-- End of Single Work Item-->
+      <!-- Single Work Item-->
+      <article class="work-item item-1">
+        <img src="./img/work-item-1.jpg" alt="" class="work-item__img">
+        <a href="#" class="work-item__icon" data-id="1">
+          <i class="fas fa-search"></i>
+        </a>
+      </article>
+      <!-- End of Single Work Item-->
+      <!-- Single Work Item-->
+      <article class="work-item item-2">
+        <img src="./img/work-item-2.jpg" alt="" class="work-item__img">
+        <a href="#" class="work-item__icon" data-id="2">
+          <i class="fas fa-search"></i>
+        </a>
+      </article>
+      <!-- End of Single Work Item-->
+      <!-- Single Work Item-->
+      <article class="work-item item-3">
+        <img src="./img/work-item-3.jpg" alt="" class="work-item__img">
+        <a href="#" class="work-item__icon" data-id="3">
+          <i class="fas fa-search"></i>
+        </a>
+      </article>
+      <!-- End of Single Work Item-->
+      <!-- Single Work Item-->
+      <article class="work-item item-4">
+        <img src="./img/work-item-4.jpg" alt="" class="work-item__img">
+        <a href="#" class="work-item__icon" data-id="4">
+          <i class="fas fa-search"></i>
+        </a>
+      </article>
+      <!-- End of Single Work Item-->
+      <!-- Single Work Item-->
+      <article class="work-item item-5">
+        <img src="./img/work-item-5.jpg" alt="" class="work-item__img">
+        <a href="#" class="work-item__icon" data-id="5">
+          <i class="fas fa-search"></i>
+        </a>
+      </article>
+      <!-- End of Single Work Item-->
+      <!-- Single Work Item-->
+      <article class="work-item item-6">
+        <img src="./img/work-item-6.jpg" alt="" class="work-item__img">
+        <a href="#" class="work-item__icon" data-id="6">
+          <i class="fas fa-search"></i>
+        </a>
+      </article>
+      <!-- End of Single Work Item-->
+      <!-- Single Work Item-->
+      <article class="work-item item-7">
+        <img src="./img/work-item-7.jpg" alt="" class="work-item__img">
+        <a href="#" class="work-item__icon" data-id="7">
+          <i class="fas fa-search"></i>
+        </a>
+      </article>
+      <!-- End of Single Work Item-->
+      <!-- Single Work Item-->
+      <article class="work-item item-8">
+        <img src="./img/work-item-8.jpg" alt="" class="work-item__img">
+        <a href="#" class="work-item__icon" data-id="8">
+          <i class="fas fa-search"></i>
+        </a>
+      </article>
+      <!-- End of Single Work Item-->
+    </div>
+
+    <!-- Login -->
+    <div class="work-modal-login loginPage">
+      <div class="sign-in">
+        <div class="back-btn">
+          <a href="./index.html">
+            <i class="fas fa-arrow-alt-circle-left"></i>
+          </a>
+        </div>
+        <form class="login-form">
+          <h2>Log In</h2>
+          <input class="inputs" type="text" name="username" placeholder="Username"">
+          <br>
+          <input class=" inputs" type="password" name="password" placeholder="Password">
+          <br><br>
+          <a href="#"><input type="button" value="Log In" onclick="checkLogin()"></a>
+          <br><br>
+          <div id="container">
+            <a href="./reset.html">Change Password</a>
+            <br>
+            <a href="./forgot.html">Forgot Password</a>
+          </div><br><br><br><br><br><br>
+          Don't have account? <a href="" class="sign-up__links">&nbsp;Sign Up</a>
+        </form>
+      </div>
+    </div>
+    <!-- End of Login -->
+
+    <!-- Work Modal -->
+    <div class="work-modal">
+      <div class="work-modal__item">
+        <div class="text-box">
+          <p></p>
+        </div>
+      </div>
+      <div class="work-modal__info">
+        <i class="fas fa-info-circle"></i>
+      </div>
+      <div class="work-modal__close">
+        <i class="fas fa-window-close"></i>
+      </div>
+    </div>
+    <!-- End of Work Modal -->
+  </section>
+  <!-- End of Work Section -->
+
+  <!-- Contact Section -->
+  <section class="contact section-padding" id="contact">
+    <!-- Section Title -->
+    <div class="section-title section-title--left">
+      <h1 class="section-title__name lobster-fonts">
+        our contact
+      </h1>
+      <div class="section-title__underline"></div>
+    </div>
+    <!-- End of Section Title -->
+
+    <div class="contact-container">
+      <iframe class="contact-map"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2484.7194914170896!2d-0.1909565!3d51.481663!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48760f864b976f3d%3A0x48aa38781ea565f8!2sStamford+Bridge!5e0!3m2!1sen!2sjp!4v1558521113544!5m2!1sen!2sjp"
+        width="100%" height="450" frameborder="0" style="border:0" allowfullscreen>
+      </iframe>
+      <div class="contact-info">
+        <!--Address-->
+        <div class="contact-item">
+          <div class="contact-item__icon">
+            <i class="fas fa-map-pin"></i>
+          </div>
+          <h2 class="contact-item__title">address</h2>
+          <p class="contact-item__text">Stamford Bridge, West London</p>
+        </div>
+        <!--End of Address-->
+        <!--Support-->
+        <div class="contact-item">
+          <div class="contact-item__icon">
+            <i class="fas fa-headphones-alt"></i>
+          </div>
+          <h2 class="contact-item__title">
+            support
+          </h2>
+          <p class="contact-item__text">
+            <span>
+              <i class="fas fa-phone"></i>
+            </span>
+            +123 456 789
+          </p>
+          <p class="contact-item__text">
+            <span>
+              <i class="fas fa-envelope"></i>
+            </span>
+            loveCoffee@coffeeshop.com
+          </p>
+        </div>
+        <!--End of Support-->
+        <!--Time-->
+        <div class="contact-item">
+          <div class="contact-item__icon">
+            <i class="fas fa-clock"></i>
+          </div>
+          <h2 class="contact-item__title">work time</h2>
+          <p class="contact-item__text">
+            Monday - Friday, 8:00AM - 10:00PM
+          </p>
+          <p class="contact-item__text">
+            Saturday - Sunday, 9:00AM - 19:00PM
+          </p>
+        </div>
+        <!--End of Time-->
+      </div>
+    </div>
+  </section>
+  <!-- End of Contact Section -->
+
+  <!-- Footer Section -->
+  <section class="footer section-padding" id="footer">
+    <div class="banner__icons">
+      <a href="#" class="banner__social-icon">
+        <i class="fab fa-facebook fa-fw"></i>
+      </a>
+      <a href="#" class="banner__social-icon">
+        <i class="fab fa-linkedin fa-fw"></i>
+      </a>
+      <a href="#" class="banner__social-icon">
+        <i class="fab fa-github fa-fw"></i>
+      </a>
+      <a href="#" class="banner__social-icon">
+        <i class="fab fa-instagram fa-fw"></i>
+      </a>
+    </div>
+
+    <aside class="footer-nav">
+      <ul class="footer-nav__links">
+        <li><a href="#header" class="footer-nav__single-links">Home</a></li>
+        <li><a href="#about" class="footer-nav__single-links">About</a></li>
+        <li><a href="#drink" class="footer-nav__single-links">Sign Up</a></li>
+        <li><a href="#work" class="footer-nav__single-links">Our Work</a></li>
+        <li><a href="#contact" class="footer-nav__single-links">Contact</a></li>
+      </ul>
+    </aside>
+
+    <aside class="footer-nav">
+      <ul class="footer-nav__links">
+        <li><a href="#" class="footer-second-nav__single-links">Blog</a></li>
+        <li><a href="#" class="footer-second-nav__single-links">Site Map</a></li>
+        <li><a href="http://troy420.github.io" class="footer-second-nav__single-links">Portfolio</a></li>
+      </ul>
+    </aside>
+
+  </section>
+
+  <div class="under-footer">
+    <p>Healthy Coffee, Crafted with Love in London
+      <br>
+      Website Design by <a href="#"><strong>Bernardy Ho</strong></a>
+    </p>
+  </div>
+  <!-- End of Footer Section -->
+
+
+
+
+</body>
+<script src="js/app.js"></script>
+<!-- Font Awesome -->
+<script src="./js/all.js"></script>
+<script src="./js/checkLogin.js"></script>
+
+</html>
