@@ -15,6 +15,15 @@ function eventListeners() {
     ui.showNav();
   });
 
+  //When a Links are clicked, Nav is toggled
+  const aLinks = document.querySelectorAll(".nav__single-links");
+
+  for (let i = 0; i < aLinks.length; i++) {
+    aLinks[i].addEventListener("click", function() {
+      document.querySelector(".nav").classList.toggle("nav--show");
+    });
+  }
+
   // Control the Video
   document
     .querySelector(".video__switch")
@@ -105,12 +114,10 @@ UI.prototype.hidePreloader = function() {
 // Show Nav Btn
 UI.prototype.showNav = function() {
   document.querySelector(".nav").classList.toggle("nav--show");
+};
 
-  if (document.querySelector(".nav").classList.contains("nav--show")) {
-    setTimeout(function() {
-      document.querySelector(".nav").classList.remove("nav--show");
-    }, 30000);
-  }
+UI.prototype.hideNav = function() {
+  document.querySelector(".nav").classList.toggle("nav--show");
 };
 
 // On or Off Button for Video
